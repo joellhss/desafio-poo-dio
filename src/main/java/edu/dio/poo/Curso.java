@@ -3,8 +3,7 @@ package edu.dio.poo;
 public class Curso extends Conteudo{
     private int cargaHoraria;
 
-    public Curso(String titulo) {
-        setTitulo(titulo);
+    public Curso() {
     }
     public Curso(String titulo, String descricao, int cargaHoraria) {
         setTitulo(titulo);
